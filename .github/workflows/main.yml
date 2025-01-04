@@ -5,6 +5,7 @@
 name: Build TOMATOX For Win/Mac/Linux
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - v*.*.*
